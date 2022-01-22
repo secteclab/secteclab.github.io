@@ -1,5 +1,5 @@
 ---
-title: Change the Appearance of Friday Theme
+title: Change the Appearance of Secteclab
 ---
 
 ## Changing the Style

@@ -1,5 +1,5 @@
 ---
-title: Install and Use Friday Theme
+title: Install and Use Secteclab
 ---
 
 ## About
@@ -35,11 +35,3 @@ There's two data files that help create elements of the web site.
 1. `_data/nav.yml` - use this to build a list of links that will be in the top nav bar. The defaults expose all elements of the theme. If you delete eg the about page, don't forget to edit this file. The Jekyll build will not warn you, because this file cannot use the `{% raw %}{% link %}{% endraw %}` tag.
 
 2. `_data/profile.yml` - this contains a list of links that will be in the left-hand profile bar. Typical usage would be to add your social media and other portfolio links.
-
-
-
-
-
-
-
-

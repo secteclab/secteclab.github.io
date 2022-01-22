@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Welcome to Friday Theme
+title: Welcome to Secteclab
 ---
 
 ## What is it?
@@ -26,5 +26,3 @@ This web site is the documentation for the theme and also provides examples of h
 {% for post in site.posts limit:3 %}
 {% include components/post-card.html %}
 {% endfor %}
-
-

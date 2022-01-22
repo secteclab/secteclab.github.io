@@ -1,5 +1,5 @@
 ---
-title: Writing Content for Friday Theme
+title: Writing Content for Secteclab
 ---
 
 ## Writing Content
