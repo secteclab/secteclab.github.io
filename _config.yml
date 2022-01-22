@@ -10,3 +10,8 @@ excerpt_separator: <!--more-->
 title:            Security Tech Lab            # Site title
 name:             D6            # Your name
 avatar:           /theme/img/avatar.jpg   # Path to an avatar image
+
+# The theme uses the baseurl throughout, which is useful for running the entire
+# site under a subdir, like for this GitHub Pages deployment as a project site.
+# Use "" when runnign the site out of the root of a domain.
+baseurl: ""
