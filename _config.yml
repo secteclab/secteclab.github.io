@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 # Config for your profile.
 title:            Security Tech Lab            # Site title
-name:             D6            # Your name
+name:             RedTeam 3fr            # Your name
 avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
@@ -71,5 +71,3 @@ defaults:
     values:
       show_profile: false
       layout: defaults/list
-
-
