@@ -11,7 +11,7 @@ title: Welcome
 
 ## How to use it
 
-[The blog]({{ site.baseurl }}{% link list/posts.html %}) has a bunch of tips about how to use Friday Theme. These show how the blog works, including the tags. There's the three most-recent posts below included below.
+[Our blog]({{ site.baseurl }}{% link list/posts.html %}) enjoy it.
 
 <hr />
 
