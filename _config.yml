@@ -71,3 +71,14 @@ defaults:
     values:
       show_profile: false
       layout: defaults/list
+
+# Author details.
+israelo_dragon:
+    name: Israelo
+    email: xxx@yyy.com
+    web: http://twitter.com/bbb
+
+secteclab:
+    name: Secteclab
+    email: xxx@yyy.com
+    web: http://twitter.com/bbb
