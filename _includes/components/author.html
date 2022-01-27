@@ -1,5 +1,6 @@
 {% assign author = site[page.author] %}
 {% if author %}
+  <br>
   <hr>
   <span>
      <div>
@@ -10,7 +11,7 @@
         <div>
            <h3> {{author.name}} &nbsp;
              {% if author.twitter %}
-                <a href="{{author.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a>
+                <a href="{{author.twitter}}" class="fa fa-twitter"><span class="label">Twitter</span></a>
               {% endif %}
             </h3>
         </div>
@@ -18,9 +19,6 @@
      {{ author.bio }}
   </span>
   <br>
-  <span>
-    Written by {{ author.name }}
-  </span>
 {% else %}
   <span>
     Written by Secteclab
