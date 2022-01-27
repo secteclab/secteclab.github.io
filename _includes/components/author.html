@@ -11,12 +11,8 @@
         <div>
            <h3> {{author.name}} &nbsp;
              {% if author.twitter %}
-                 <span class="icon grey mr-2">
-                     <a href="{{ site.baseurl }}{% link entypo/twitter.svg %}"
-                 </span>
                 <a href="{{author.twitter}}" class="icon grey mr-2">
-                  <span class="text-nowrap">Twitter</span>
-                </a>
+                  <span class="text-nowrap">Twitter</span></a>
               {% endif %}
             </h3>
         </div>

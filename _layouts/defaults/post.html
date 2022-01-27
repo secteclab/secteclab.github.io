@@ -12,3 +12,6 @@ layout: default
 
 
 {% include components/author.html %}
+{% if author.bio %}
+      {% include components/author_bio.html %}
+{% endif %}
