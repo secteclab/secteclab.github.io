@@ -67,7 +67,10 @@ h2[id]::before {
 }
 
 .fa {
-  font-size: (4em / 3);
-  line-height: (3em / 4);
-  vertical-align: -15%;
+  border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	border-radius: 5px  10px 5px 150px;
+	box-shadow: 2px 3px 10px black;
 }
