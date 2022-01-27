@@ -67,10 +67,10 @@ h2[id]::before {
 }
 
 .fa {
-  border: 1px solid black;
-	height: 100px;
-	width: 100px;
-	margin: 10px;
-	border-radius: 5px  10px 5px 150px;
-	box-shadow: 2px 3px 10px black;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center right;
 }
