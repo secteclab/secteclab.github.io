@@ -1,6 +1,8 @@
 <!-- Look the author details up from the site config. -->
 {% assign author = site.data.authors[page.author] %}
 
+<hr>
+
 <table>
   <tr>
     <td rowspan="2" class="prof">
@@ -26,21 +28,3 @@
     </td>
   </tr>
 </table>
-
-<hr>
-<span>
-   <div>
-      {% if author.image %}
-         <img src="{{author.image}}" class="fa">
-      {% endif %}
-      <div>
-         <h3> {{author.name}} &nbsp;
-           {% if author.twitter %}
-              <a href="{{author.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a>
-            {% endif %}
-          </h3>
-      </div>
-   </div>
-   {{ author.bio }}
-</span>
-<br>
