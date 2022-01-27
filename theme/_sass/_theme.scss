@@ -74,3 +74,21 @@ h2[id]::before {
   object-fit: cover;
   object-position: center right;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.prof {
+  font-family: sans-serif;
+  text-align: center;
+  width: 102px
+}
